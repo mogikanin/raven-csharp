@@ -87,9 +87,13 @@ namespace SharpRaven.Utilities
             if (error == null)
                 return;
 
+#if !__MAC__ 
             Console.ForegroundColor = ConsoleColor.Red;
+#endif
             Console.Write("[ERROR] ");
+#if !__MAC__
             Console.ForegroundColor = ConsoleColor.Gray;
+#endif
             Console.WriteLine(error);
         }
 

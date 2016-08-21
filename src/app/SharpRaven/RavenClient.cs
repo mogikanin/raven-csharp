@@ -53,6 +53,7 @@ namespace SharpRaven
         private readonly ISentryUserFactory sentryUserFactory;
 
 
+        #if !__MAC__
         /// <summary>
         /// Initializes a new instance of the <see cref="RavenClient" /> class. Sentry
         /// Data Source Name will be read from sharpRaven section in your app.config or
@@ -63,6 +64,7 @@ namespace SharpRaven
             : this(new Dsn(Configuration.Settings.Dsn.Value), jsonPacketFactory)
         {
         }
+        #endif
 
 
         /// <summary>

@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="tests/SharpRaven.WebTest/SharpRaven.WebTest.csproj" StartupConfiguration="{156621FC-2C48-4CDF-A368-9347BABE9089}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CommonAssemblyInfo.cs">
+    <Files>
+      <File FileName="app/SharpRaven/Utilities/SystemUtil.cs" Line="74" Column="10" />
+      <File FileName="app/SharpRaven.Xamarin.Mac/Properties/AssemblyInfo.cs" Line="15" Column="1" />
+      <File FileName="CommonAssemblyInfo.cs" Line="33" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.tests.SharpRaven.WebTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>tests/SharpRaven.Nancy.UnitTests/SharpRaven.Nancy.UnitTests.csproj</String>
+  </DisabledProjects>
+</Properties>
